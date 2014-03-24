@@ -1,0 +1,13 @@
+{
+  "name": "OctoIRC",
+  "version": "0.0.1",
+  "description": "OctoIRC",
+  "main": "app.js",
+  "author": {
+    "name": "Richard Brown",
+    "email": ""
+  },
+  "dependencies": {
+    "irc": "^0.3.6"
+  }
+}
