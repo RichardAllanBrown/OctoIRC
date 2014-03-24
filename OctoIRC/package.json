@@ -2,7 +2,7 @@
   "name": "OctoIRC",
   "version": "0.0.1",
   "description": "OctoIRC",
-  "main": "app.js",
+  "main": "octoIrc.js",
   "author": {
     "name": "Richard Brown",
     "email": ""

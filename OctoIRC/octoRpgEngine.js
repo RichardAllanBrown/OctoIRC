@@ -58,6 +58,15 @@ OctoRpgEngine.prototype.processAttack = function(user) {
     return result;
 }
 
+OctoRpgEngine.prototype.flee = function(user) {
+    if (!user in this._battles) {
+        return "Flee from what?";
+    }
+
+    delete this._battles[user];
+    return "You have sucessfully fled.";
+}
+
 OctoRpgEngine.prototype.getStats = function(user) {
     if (!user in this._players) {
         return "You need to create a character to do this first!";
