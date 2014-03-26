@@ -11,4 +11,8 @@ Char.prototype.isDead = function() {
     return this.health <= 0;
 }
 
+Char.prototype.levelUp = function() {
+    this.level++;
+}
+
 module.exports = Char;

@@ -12,8 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1932aba1-9282-4622-af8b-727a9fa0837e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>src\octoIrc.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -30,15 +29,17 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="battle.js" />
-    <Compile Include="char.js" />
-    <Compile Include="enemy.js" />
-    <Compile Include="octoIrc.js" />
-    <Compile Include="octoRpgEngine.js" />
+    <Compile Include="src\battle.js" />
+    <Compile Include="src\char.js" />
+    <Compile Include="src\enemy.js" />
+    <Compile Include="src\octoIrc.js" />
+    <Compile Include="src\octoRpgEngine.js" />
+    <Compile Include="test\enemy_test.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="src\" />
     <Folder Include="test\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />

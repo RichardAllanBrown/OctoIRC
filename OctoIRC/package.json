@@ -2,12 +2,19 @@
   "name": "OctoIRC",
   "version": "0.0.1",
   "description": "OctoIRC",
-  "main": "octoIrc.js",
+  "main": "./octoIrc.js",
   "author": {
     "name": "Richard Brown",
-    "email": ""
+    "email": "richard.allan.brown@gmail.com"
   },
   "dependencies": {
     "irc": "^0.3.6"
+  },
+  "dev-dependencies": {
+    "mocha": "^1.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rokusho39/OctoIRC"
   }
 }
