@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "OctoIRC", "OctoIRC\OctoIRC.njsproj", "{1932ABA1-9282-4622-AF8B-727A9FA0837E}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "OctoIRC", "OctoIRC.njsproj", "{1932ABA1-9282-4622-AF8B-727A9FA0837E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

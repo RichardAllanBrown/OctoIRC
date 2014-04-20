@@ -8,7 +8,8 @@
     "email": "richard.allan.brown@gmail.com"
   },
   "dependencies": {
-    "irc": "^0.3.6"
+    "irc": "^0.3.6",
+    "mocha": "^1.18.2"
   },
   "dev-dependencies": {
     "mocha": "^1.18.2"

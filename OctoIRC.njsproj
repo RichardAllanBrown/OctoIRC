@@ -29,19 +29,20 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="src\battle.js" />
-    <Compile Include="src\char.js" />
-    <Compile Include="src\charBase.js" />
-    <Compile Include="src\enemy.js" />
-    <Compile Include="src\enemyFactory.js" />
-    <Compile Include="src\octoIrc.js" />
-    <Compile Include="src\octoRpgEngine.js" />
-    <Compile Include="test\enemy_test.js" />
+    <Compile Include="lib\battle.js" />
+    <Compile Include="lib\char.js" />
+    <Compile Include="lib\charBase.js" />
+    <Compile Include="lib\enemy.js" />
+    <Compile Include="lib\enemyFactory.js" />
+    <Compile Include="lib\octoIrc.js" />
+    <Compile Include="lib\octoRpgEngine.js" />
+    <Compile Include="test\charBase.test.js" />
+    <Compile Include="test\enemy.test.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\" />
+    <Folder Include="lib\" />
     <Folder Include="test\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
