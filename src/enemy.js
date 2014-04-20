@@ -1,11 +1,11 @@
 ﻿//class for enemies
-
 "use strict"
 
-function Enemy(level) {
-    this._name = "Goblin",
+function Enemy(name, level, startHealth) {
+    this._name = name,
     this._level = level;
-    this._health = 6;
+    this._health = startHealth;
+    this._xp = 0;
 }
 
 Enemy.prototype.getHealth = function() {
@@ -22,6 +22,10 @@ Enemy.prototype.getName = function() {
 
 Enemy.prototype.getLevel = function() {
     return this._level;
+}
+
+Enemy.prototype.addXP = function (xpToAdd) {
+    this._xp += xpToAdd;
 }
 
 module.exports = Enemy;

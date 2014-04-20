@@ -6,7 +6,7 @@ var engine = require("./octoRpgEngine");
 
 //modify to alter irc client settings
 var config = {
-    channels: ["#wangingout"],
+    channels: ["rokusho"],
     server: "irc.freenode.net",
     botName: "OctoRPG",
 };

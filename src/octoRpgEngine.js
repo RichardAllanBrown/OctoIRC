@@ -28,7 +28,7 @@ OctoRpgEngine.prototype.deletePC = function(user) {
 }
 
 OctoRpgEngine.prototype.startFight = function(user) {
-    if (!user in this._player) {
+    if (!user in this._players) {
         return "Aren't you eager! You need to create a character first.";
     }
 
@@ -38,7 +38,7 @@ OctoRpgEngine.prototype.startFight = function(user) {
 
     var player = this._players[user];
     var enemyToFight = new enemy();
-    _battles[user] = new battle(player, enemyToFight);
+    this._battles[user] = new battle(player, enemyToFight);
 
     return player.name + " (level " + player.level + ") has picked a fight with " + enemy.name + "(level " + enemy.level + ").";
 }

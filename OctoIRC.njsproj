@@ -31,7 +31,9 @@
   <ItemGroup>
     <Compile Include="src\battle.js" />
     <Compile Include="src\char.js" />
+    <Compile Include="src\charBase.js" />
     <Compile Include="src\enemy.js" />
+    <Compile Include="src\enemyFactory.js" />
     <Compile Include="src\octoIrc.js" />
     <Compile Include="src\octoRpgEngine.js" />
     <Compile Include="test\enemy_test.js" />

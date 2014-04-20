@@ -21,7 +21,7 @@ Battle.prototype.processRound = function(playerMove) {
     //player gets to move first
     switch (playerMove) {
         case "attack":
-            var toHitText = this._player.name + " swings at the " + this._enemy.name + " with his sword";
+            var toHitText = this._player.getName() + " swings at the " + this._enemy.getName() + " with his sword";
             var damage = this.calcDam();
             enemy.health -= damage;
 
@@ -71,7 +71,7 @@ Battle.prototype.processRound = function(playerMove) {
 }
 
 Battle.prototype.isOver = function() {
-    return this._player.health <= 0 || this._enemy.health <= 0;
+    return this._player.isDead || this._enemy.isDead;
 }
 
 module.exports = Battle;
