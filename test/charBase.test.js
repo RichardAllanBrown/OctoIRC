@@ -28,11 +28,11 @@ describe("Char Base", function() {
     });
     
     it("should have attributes", function() {
-        assert.equal(testChar.getAttr().str, 9);
-        assert.equal(testChar.getAttr().dex, 8);
-        assert.equal(testChar.getAttr().luck, 7);
-        assert.equal(testChar.getAttr().int, 6);
-        assert.equal(testChar.getAttr().con, 5);
+        assert.equal(testChar.getStr(), 9);
+        assert.equal(testChar.getDex(), 8);
+        assert.equal(testChar.getLuck(), 7);
+        assert.equal(testChar.getInt(), 6);
+        assert.equal(testChar.getCon(), 5);
     });
 
     it("can be damaged", function() {
